@@ -1,0 +1,12 @@
+# Build artifacts (compiled Swift prompt, .app bundle)
+.build/
+
+# Local state — never commit, may hold real credentials
+store/
+files/
+requests/
+
+# Scratch
+node_modules/
+.DS_Store
+*.log
